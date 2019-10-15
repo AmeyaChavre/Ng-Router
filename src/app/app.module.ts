@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+import { HttpModule } from '';
 import { HomeComponent } from './home/home.component';
 import { UsersComponent } from './users/users.component';
 import { ServersComponent } from './servers/servers.component';
@@ -31,6 +32,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     FormsModule,
+    HttpModule,
+    RouterModule
   ],
   providers: [ServersService],
   bootstrap: [AppComponent]
