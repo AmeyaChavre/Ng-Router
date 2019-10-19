@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   }
 
   onLoadServers(){
-  	this.router.navigate();
+  	this.router.navigate([]);
   }
 
 }
