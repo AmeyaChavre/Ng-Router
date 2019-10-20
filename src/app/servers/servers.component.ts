@@ -11,14 +11,15 @@ export class ServersComponent implements OnInit {
   private servers: {id: number, name: string, status: string}[] = [];
 
   constructor(private serversService: ServersService,
-  	private router: Router) { }
+  	private router: Router,
+  	private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.servers = this.serversService.getServers();
   }
 
   onReload(){
-  	this.router.navigate(['/servers']);
+  	this.router.navigate(['servers'], {relativeTo: });
   }
 
 }
