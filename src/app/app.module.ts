@@ -14,6 +14,7 @@ import { ServersService } from './servers/servers.service';
 import { RootGuardsComponent } from './root-guards/root-guards.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MiddleWareComponent } from './middle-ware/middle-ware.component';
+import { RouteGuardBlockComponent } from './route-guard-block/route-guard-block.component';
 
 
 const appRoutes: Routes = [
@@ -34,7 +35,8 @@ const appRoutes: Routes = [
     ServerComponent,
     RootGuardsComponent,
     NotFoundComponent,
-    MiddleWareComponent
+    MiddleWareComponent,
+    RouteGuardBlockComponent
   ],
   imports: [
     BrowserModule,
