@@ -20,7 +20,7 @@ export class UserComponent implements OnInit {
   	}
   	this.route.params
   	.subscribe(
-
+  		(params: Params) => {}
   	);
   }
 
