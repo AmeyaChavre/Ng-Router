@@ -1,6 +1,6 @@
 <h4 *ngIf="!allowEdit"> You are not authorized to Edit. Access Denied. </h4>
 
-<div>
+<div *ngIf="allowEdit">
 
   <div class="form-group">
   <label for="name">Server Name</label>
@@ -23,6 +23,6 @@
 <button
   class="btn btn-primary"
   (click)="onUpdateServer()">Update Server</button>
-  
+
 </div>
 
