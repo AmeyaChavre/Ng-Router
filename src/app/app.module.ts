@@ -34,8 +34,7 @@ const appRoutes: Routes = [
     UserComponent,
     EditServerComponent,
     ServerComponent,
-    RootGuardsComponent,
-    NotFoundComponent
+    RootGuardsComponent
   ],
   imports: [
     BrowserModule,
