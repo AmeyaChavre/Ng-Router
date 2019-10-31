@@ -23,7 +23,7 @@ const appRoutes: Routes = [
                                                   { path: ':id/edit', component: EditServerComponent }
  ]},
 
- { path: 'notfound', component: PageNotFoundComponent },
+ { path: 'not-found', component: PageNotFoundComponent },
  { path: 'something', redirectTo: '/not-found'}
 
 ];
