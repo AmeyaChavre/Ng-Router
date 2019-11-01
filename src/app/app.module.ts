@@ -31,8 +31,7 @@ import { AppRoutingModule } from './app-routing.module.ts';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule,
-    RouterModule.forRoot(appRoutes)
+    AppRoutingModule
   ],
   providers: [ServersService],
   bootstrap: [AppComponent]
