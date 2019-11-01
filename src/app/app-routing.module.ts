@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { HomeComponent } from './home/home.component';
+import { UsersComponent } from './users/users.component'
 
 const appRoutes: Routes = [
  { path: '', component: HomeComponent },
