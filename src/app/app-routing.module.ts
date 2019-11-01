@@ -29,7 +29,7 @@ const appRoutes: Routes = [
 				RouterModule.forRoot(appRoutes)
 	],
 
-	exports: [AppRoutingModule]
+	exports: [RouterModule]
 })
 
 export class AppRoutingModule{
