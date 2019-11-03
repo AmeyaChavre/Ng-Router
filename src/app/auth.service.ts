@@ -11,6 +11,7 @@ export class AuthService{
 				)
 			}
 		)
+		return promise;
 	}
 
 	login(){
