@@ -32,7 +32,7 @@ import { AppRoutingModule } from './app-routing.module';
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [ServersService],
+  providers: [ServersService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
