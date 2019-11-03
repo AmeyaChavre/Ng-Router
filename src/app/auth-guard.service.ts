@@ -2,7 +2,8 @@ import
 { 
 CanActivate, 
 ActivatedRouteSnapshot, 
-RouterStateSnapshot 
+RouterStateSnapshot,
+Router 
 } 
 from 
 '@angular/router';
