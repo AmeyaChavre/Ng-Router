@@ -7,7 +7,7 @@ RouterStateSnapshot
 from 
 '@angular/router';
 import { Observable } from 'rxjs/Observable'; 
-
+import { Injectable } from '@angular/core';
 
 @Injectable()
 export class AuthGuard implements CanActivate {
