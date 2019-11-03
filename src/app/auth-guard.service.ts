@@ -7,7 +7,9 @@ RouterStateSnapshot
 from 
 '@angular/router';
 
+import { Observable } from 'rxjs/Observable'; 
+
 export class AuthGuard implements CanActivate {
 	canActivate(route: ActivatedRouteSnapshot, 
-		state: RouterStateSnapshot)
+		state: RouterStateSnapshot): Observable<boolean>
 }
