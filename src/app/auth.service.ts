@@ -7,8 +7,6 @@ export class AuthService{
 				setTimeout( () => {
 					resolve(this.loggedIn)
 				}, 800);
-
-				
 			}
 		);
 		return promise;
