@@ -18,8 +18,8 @@ const appRoutes: Routes = [
  canActivate: [AuthGuard], 
  component: ServersComponent , 
  children: [
-			{ path: ':id', component: ServerComponent },
-			{ path: ':id/edit', component: EditServerComponent }
+	{ path: ':id', component: ServerComponent },
+	{ path: ':id/edit', component: EditServerComponent }
  ]},
 
  { path: 'not-found', component: PageNotFoundComponent }, // not-found route should be 
