@@ -19,11 +19,11 @@ export class HomeComponent implements OnInit {
   }
 
   onLogin(){
-
+  	this.authService.login();
   }
 
   onLogout(){
-  	
+
   }
 
 }
