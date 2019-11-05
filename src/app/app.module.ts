@@ -33,7 +33,7 @@ import { AuthGuard } from './auth-guard.service';
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [ServersService, AuthService, AuthGuard],
+  providers: [ServersService, AuthService, AuthGuard, CanDeactivate],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
