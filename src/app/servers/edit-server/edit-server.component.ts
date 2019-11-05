@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ServersService } from '../servers.service';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { CanComponentDeactivate } from './can-deactivate-guard.service';
+import { Observable } from 'rxjs/observable';
 
 @Component({
   selector: 'app-edit-server',
@@ -41,6 +42,6 @@ export class EditServerComponent implements OnInit, CanComponentDeactivate {
   }
 
   canDeactivate(): Observable<boolean> | Promise<boolean> | boolean{
-    
+
   }
 }
