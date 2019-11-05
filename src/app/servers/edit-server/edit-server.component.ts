@@ -46,8 +46,8 @@ export class EditServerComponent implements OnInit, CanComponentDeactivate {
       return true;
     }
 
-    if(this.serverName !== this.server.name){
-      
+    if((this.serverName !== this.server.name || this.serverStatus !== this.server.status)){
+
     }
   }
 }
