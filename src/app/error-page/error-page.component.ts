@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-error-page',
   templateUrl: './error-page.component.html',
@@ -8,8 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class ErrorPageComponent implements OnInit {
 
   errorMessage: string;
-  
-  constructor() { }
+
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
   }
