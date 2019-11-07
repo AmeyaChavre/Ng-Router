@@ -26,8 +26,7 @@ import { CanDeactivateGuard } from './servers/edit-server/can-deactivate-guard.s
     UserComponent,
     EditServerComponent,
     ServerComponent,
-    PageNotFoundComponent,
-    DeleteServerComponent
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
