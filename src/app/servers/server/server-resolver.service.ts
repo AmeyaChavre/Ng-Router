@@ -2,7 +2,8 @@ import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/r
 import { Observable } from 'rxjs/Observable';
 
 interface Server {
-	id: number,
+	id: number;
+	name: string;
 }
 
 export class ServerResolver implements Resolve<{id: number, name:string ,status:string}> {
