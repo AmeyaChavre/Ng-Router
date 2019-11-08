@@ -4,6 +4,7 @@ import { Observable } from 'rxjs/Observable';
 interface Server {
 	id: number;
 	name: string;
+	status: string
 }
 
 export class ServerResolver implements Resolve<{id: number, name:string ,status:string}> {
