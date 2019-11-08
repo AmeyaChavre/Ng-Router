@@ -7,7 +7,7 @@ interface Server {
 	status: string
 }
 
-export class ServerResolver implements Resolve<{id: number, name:string ,status:string}> {
+export class ServerResolver implements Resolve<Server> {
 	resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable <> {
 
 	}
