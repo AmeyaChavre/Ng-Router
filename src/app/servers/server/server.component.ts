@@ -19,7 +19,9 @@ export class ServerComponent implements OnInit {
 
     this.route.data
     .subscribe(
-
+      (data: Data) => {
+        
+      }
 
     );
   /*	const id = +this.route.snapshot.params['id'];
