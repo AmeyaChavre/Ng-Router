@@ -8,7 +8,7 @@ interface Server {
 }
 
 export class ServerResolver implements Resolve<Server> {
-	resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable <Server> {
+	resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable <Server> | Promise <Server> | Server {
 
 	}
 }
