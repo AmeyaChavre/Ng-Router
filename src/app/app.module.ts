@@ -18,6 +18,7 @@ import { CanDeactivateGuard } from './servers/edit-server/can-deactivate-guard.s
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { ServerResolver} from './servers/server/server-resolver.service';
 import { DeleteServerComponent } from './delete-server/delete-server.component';
+import { EditUserComponent } from './edit-user/edit-user.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { DeleteServerComponent } from './delete-server/delete-server.component';
     ServerComponent,
     PageNotFoundComponent,
     ErrorPageComponent,
-    DeleteServerComponent
+    DeleteServerComponent,
+    EditUserComponent
   ],
   imports: [
     BrowserModule,
